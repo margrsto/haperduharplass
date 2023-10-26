@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-PIR_PIN = 7
+PIR_PIN = 4
 GPIO.setup(PIR_PIN, GPIO.IN)
 
 print('Starting up the PIR Module (click on STOP to exit)')
