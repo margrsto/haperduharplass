@@ -11,9 +11,9 @@ y2 = [1, 2, 2, 2, 0]
 plt.plot(x1, y1, label='I dag')
 plt.plot(x1, y2, label='Trend')
 
-plt.xlabel('subjects')
-plt.ylabel('marks')
-plt.title("marks obtained in 2010")
+plt.xlabel('klokkeslett')
+plt.ylabel('antall personer')
+plt.title("Treningsrom")
 
 plt.plot(y1, 'o:g', linestyle='--', linewidth='8')
 plt.plot(y2, 'o:g', linestyle=':', linewidth='8')
